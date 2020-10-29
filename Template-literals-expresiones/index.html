@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template-literals-expresiones</title>
+</head>
+
+<body>
+    <script>
+        const nombre = 'Dayana';
+        console.log(`Mi nombre es ${nombre}`);
+        console.log(`Mi edad es ${23}`);
+        console.log(`Este es el ${'Curso de JavaScript para React'}`);
+        console.log(`Mi nombre es ${x = 'Dayana'}`);
+        console.log(`Mi nombre es ${(function name() {return 'Yaya'})()}`);
+        console.log(`Mi nombre es ${(() => {return 'Marce'})()}`);
+        console.log(`Mi nombre es ${true && 'Marcela'}`);
+        console.log(`Mi nombre es ${false ? 'Daya true' : 'Daya false'}`)
+        console.log(`Mi nombre es ${['a', 'b'].map(letra => `${letra}-styled`)}`)
+    </script>
+</body>
+
+</html>
